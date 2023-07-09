@@ -124,3 +124,14 @@ main{
 .about-info{
     text-align: center;
 }
+/* what i do section */
+
+#whatido-para{
+    padding: 30px 150px;
+}
+
+/* skills div */
+.skills-container{
+    display: flex;
+    
+}
