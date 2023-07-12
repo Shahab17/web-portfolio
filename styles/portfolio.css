@@ -63,11 +63,13 @@ nav a{
 /* Header related styles */
 header{
     background-color: #4747474d; 
-    background-image: url("/images/header_bg.png");
+    background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     
-}   
+    
+}  
+  
 .banner{
     padding: 30px 30px 0px 150px;
     display: flex;
@@ -79,9 +81,7 @@ header{
 }
 .profile{
     width: 300px;
-    
-     
-     
+         
 }
 .banner-greeting{
     font-size: 45px;
@@ -89,7 +89,7 @@ header{
     margin-bottom: 0;
 }
 .banner-title{
-    font-size: 85px;
+    font-size: 65px;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 20px;
