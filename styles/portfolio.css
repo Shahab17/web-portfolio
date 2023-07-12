@@ -109,12 +109,15 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin-top: 100px;
+}
 
 /* about section styles */
 .about{
     padding: 130px;
     border-radius: 10px;
-    background: #bdb2aa;
+    background: #4747474d;
     margin: 130px 0px;
 }
 
@@ -132,8 +135,37 @@ main{
     padding: 30px 150px;
 }
 
-/* skills div */
+/* second div of skills  */
 .skills-container{
     display: flex;
+    gap: 25px;
     
+}
+.skill{
+    padding: 30px;
+    border-radius: 10px;
+    background: #4747474d;
+    box-shadow: 10px 10px 20px #bdb2aa;
+}
+.icon{
+    align-items: center;
+}
+.skill-title{
+    /* color: white; */
+}
+.skill-para{
+    /* color: white; */
+    text-align: justify;
+}
+
+/* Resume section  */
+.resume-container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1140px;
+}
+.resume-col-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
 }
